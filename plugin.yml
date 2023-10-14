@@ -1,0 +1,20 @@
+name: BSBankUI
+api: 5.0.0
+main : BhawaniTheKing\Main
+version: 1.0.0
+author: BhawaniTheKing
+depends:
+- EconomyAPI
+- FormAPI
+- FormImagesFix
+
+permissions:
+  bankui.admin:
+    description: Permission To Check Other Players Bank
+    default: op
+  bankui.cmd:
+    description: Permission To Use /bank Command
+    default: true
+  bankui.cmd.top:
+    description: Permission To Check Bank Leaderboard
+    default: true
